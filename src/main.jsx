@@ -7,7 +7,12 @@ import WebApp from './WebApp'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter 
+  
+    forceRefresh={true}
+    >
+
+    
     <WebApp />
     </BrowserRouter>
    
